@@ -6,7 +6,7 @@
   "homepage": "http://javier1234567890qw.github.io/Falcon-MayLLC",
   "scripts": {
     "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "deploy":"gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
